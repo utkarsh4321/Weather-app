@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+<div class="wrapper">
+<div class="heading">
+  <h2 id="header"></h2>
+</div>
+<div class="wheather">
+<h4 class="condition"></h4>
+<div id="temp"></div> 
+<img id="logo">
+
+</div>
+<ul id="info">
+<li class="humidity"></li>
+<li class="dewpoint"></li>
+<li class="feel"></li>
+<li class="wind"></li>
+
+</ul>
+<button id="btn">Change Location</button>
+
+
+</div>
+
+
+
+  </div>
+
+
+  <!-- Modal -->
+<section id="made">
+  <div id="modal">
+      <div class="wrapper2">
+        <div class="close">
+      <h5>Location</h5>
+      <a href="#" class="col"><i>&times;</i></a>
+      </div>
+      <form class="my-form">
+        <label>City</label>
+      <div>
+        <input type="text" id="city" name="city">
+      </div>
+      <label>State</label>
+      <div>
+      <input type="text" id="state" name="state">
+      
+      </div>
+      <div class="btn-group">
+      <button class="btn2">Close</button>
+      <button type="submit" id="btn3">Saves Changes</button>
+      </div>
+      </form>
+      
+      </div>
+      </div>
+      </section>
+<!-- modal oover -->
+
+
+<script src="storage.js"></script>
+  <script src="under.js"></script>
+  <script src="ui.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
